@@ -33,7 +33,7 @@ python3 tibet.py config-node --network mainnet [--use-sage true]
 If you're running a full node, thank you for making the network more decentralized! Run this command instead of the last one to make requests go through your full node:
 
 ```bash
-python3 tibet.py config-node --network mainnet --use-local-node
+python3 tibet.py config-node --network mainnet --use-local-node true
 ```
 
 To finish configuring `tibet.py`, run the following 3 commands:
